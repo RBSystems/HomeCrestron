@@ -1,0 +1,12 @@
+<Device Model="PMC3" Name="PMC3+.">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="C2N-DB8" DeviceId="03"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="TSW-750" DeviceId="04"/>
+   </Network>
+   <Network Type="RF" Id="03">
+      <Device Model="HR-100,HRI-100" DeviceId="03" Name="HR-100 Living Room"/>
+      <Device Model="HR-100,HRI-100" DeviceId="05" Name="HR-100 Bedroom"/>
+   </Network>
+</Device>
